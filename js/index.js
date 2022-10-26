@@ -1,3 +1,27 @@
+/*
+	vm = new Vue({
+		el: "#root",
+		data: {},
+		components: {},
+		methods: {},
+		computed: {},
+		watch: {},
+	})
+
+	v-model
+	v-bind => :
+	v-on:click => @
+	v-model.lazy
+	v-for="skill, i in skills"
+	v-text
+	v-html
+	v-if
+	v-else-if
+	v-else
+	v-show => (Show Element Or no with display none)
+	v-once => Not Update Element (Run One Time)
+*/
+
 Vue.component("app-article", {
 	data: function () {
 		return {
